@@ -7,7 +7,7 @@ webpack-simple 설치로 환경 구축 후
 
 npm run dev 실행 
 
-localhost:8080으로 브라우저에서 접속하면 됩니다.
+localhost로 (포트는 터미널에서 확인)브라우저에서 접속하면 됩니다.
 
 
 
