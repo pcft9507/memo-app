@@ -3,20 +3,20 @@
 
 node js 설치,
 
-npm install
+npm을 사용하여 Vue CLI를 설치
+```
+$ npm install vue-cli -g
+```
 
-``` This is a normal paragraph: This is a code block. end code block. ```
+Vue CLI에서 제공하는 webpack-simple 옵션을 이용
+```
+$ vue init webpack-simple memo-app
+```
 
-npm install vue-cli -g
-
-webpack-simple 설치로 환경 구축 후 
-
-
-
+webpack-simple 설치로 환경 구축 후 원격에 있는 소스를 다운 
 npm run dev 실행 
+```
+$ npm run dev
+```
 
 localhost로 (포트는 터미널에서 확인)브라우저에서 접속하면 됩니다.
-
-
-####### This is a 7.
-
