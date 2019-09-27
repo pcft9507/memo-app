@@ -5,10 +5,12 @@ node js 설치,
 
 npm install
 
-```function func() {
+```
+function func() {
   var a = 'AAA';
   return a;
-}```
+}
+```
 
 webpack-simple 설치로 환경 구축 후 
 
