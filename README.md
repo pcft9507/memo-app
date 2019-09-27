@@ -5,7 +5,7 @@ node js 설치,
 
 npm install
 
-`npm install vue-cli -g`
+`<br>npm install vue-cli -g<br>`
 
 webpack-simple 설치로 환경 구축 후 
 
