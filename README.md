@@ -3,7 +3,15 @@
 
 node js 설치,
 
+npm install
+
+``` This is a normal paragraph: This is a code block. end code block. ```
+
+npm install vue-cli -g
+
 webpack-simple 설치로 환경 구축 후 
+
+
 
 npm run dev 실행 
 
