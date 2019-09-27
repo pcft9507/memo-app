@@ -5,8 +5,10 @@ node js 설치,
 
 npm install
 
-`npm install  
-vue-cli -g  `
+```function func() {
+  var a = 'AAA';
+  return a;
+}```
 
 webpack-simple 설치로 환경 구축 후 
 
