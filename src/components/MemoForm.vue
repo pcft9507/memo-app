@@ -53,7 +53,6 @@ export default {
   .memo-form {
     margin-bottom: 24px;
     padding-bottom: 40px;
-    
     border-bottom: 1px solid #eee;
   }
   .memo-form form fieldset div {
@@ -78,6 +77,10 @@ export default {
     background-color: #ff5a00;
     color: #fff;
     font-size: 16px;
+    cursor: pointer;
+  }
+  .memo-form form fieldset button[type="submit"]:hover {
+    opacity: .8;
   }
   .memo-form form fieldset .memo-form__title-form {
     width: 100%;
