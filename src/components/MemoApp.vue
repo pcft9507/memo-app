@@ -49,12 +49,12 @@ export default {
       // 3. 삭제된 후의 데이터를 다시 로컬스토리지에 마찬가지로 저장한다.
       this.storeMemo();
     },
-    updateMemo (played) {
+    updateMemo (payload) {
       // 1. 수정된 메모를 저장한다.
       const { id, content } = payload;
       const targetIndex = this.momos.findIndex(v => v.id === id);
       const targetMemo = this.memos[targetIndex];
-      this.memos.splice(targetIndex, 1, {...targetMemo, content});
+      this.memos.splice(targetIndex, 1, { ...targetMemo, content});
       this.storeMemo();
     }
   },
